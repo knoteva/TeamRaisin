@@ -1,0 +1,9 @@
+C:\Users\Satellite\Desktop\SoftUni Team\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+C:\Users\Satellite\Desktop\SoftUni Team\WebApplication1\WebApplication1\bin\WebApplication1.dll
+C:\Users\Satellite\Desktop\SoftUni Team\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+C:\Users\Satellite\Desktop\SoftUni Team\WebApplication1\WebApplication1\bin\WebApplication1.xml
+C:\Users\Satellite\Desktop\SoftUni Team\WebApplication1\WebApplication1\obj\Debug\WebApplication1.Resources.resources
+C:\Users\Satellite\Desktop\SoftUni Team\WebApplication1\WebApplication1\obj\Debug\WebApplication1.vbproj.GenerateResource.Cache
+C:\Users\Satellite\Desktop\SoftUni Team\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\Satellite\Desktop\SoftUni Team\WebApplication1\WebApplication1\obj\Debug\WebApplication1.xml
+C:\Users\Satellite\Desktop\SoftUni Team\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
