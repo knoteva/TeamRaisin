@@ -86,11 +86,11 @@ nav {
 main {
     width: 100%;
     background-color: #5a5a5a;
-    height: 1300px;
+    height: 800px;
 }
 
 form {
-    width: 520px;
+    width: 450px;
     height: 420px;
     margin: auto;
     background: #5a5a5a;
@@ -157,50 +157,10 @@ iframe {
     margin: auto;
 }
 
-#frame2 {
-    z-index: 1;
-    width: 420px;
-    height: 400px;
-    display: none;
-    margin: auto;
-}
-
-#frame3 {
-    z-index: 1;
-    width: 420px;
-    height: 400px;
-    display: none;
-    margin: auto;
-}
-
-#frame4 {
-    z-index: 1;
-    width: 420px;
-    height: 400px;
-    display: none;
-    margin: auto;
-}
-
-#frame5 {
-    z-index: 1;
-    width: 420px;
-    height: 400px;
-    display: none;
-    margin: auto;
-}
-
-#frame6 {
-    z-index: 1;
-    width: 420px;
-    height: 400px;
-    display: none;
-    margin: auto;
-}
-
 .overlay {
     top: 105px;
     /*left: 414px;*/
-    width: 100%;
+    width: 35%;
     height: 400px;
     position: absolute;
 }
@@ -211,9 +171,11 @@ iframe {
     display: inline-block;
     width: 140px;
     height: 40px;
-    background-color: red;
+    background-color: green;
     color: white;
     border: none;
+    margin-right:5px;
+    margin-left:5px;
 }
 
 #right_slaid {
@@ -222,7 +184,7 @@ iframe {
     display: inline-block;
     width: 140px;
     height: 40px;
-    background-color: red;
+    background-color: green;
     color: white;
     border: none;
 }
@@ -233,14 +195,15 @@ iframe {
     display: inline-block;
     width: 140px;
     height: 40px;
-    background-color: red;
+    background-color: green;
     color: white;
     border: none;
+    margin-right:5px;
 }
 
 #slide_buttons {
     margin: auto;
-    width: 428px;
+    width: 450px;
     height: 50px;
 }
 
@@ -268,4 +231,19 @@ footer {
         float: left;
         margin-top: 30px;
         margin-left: 50px;
+    }
+
+    #left_side{
+        float:left;
+        display:inline-block;
+        width:300px;
+        height:700px;
+        border:1px solid white;
+    }
+    #right_side{
+         float:right;
+        display:inline-block;
+        width:300px;
+        height:700px;
+        border:1px solid white;
     }
