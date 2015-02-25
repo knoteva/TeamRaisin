@@ -1,129 +1,3 @@
-<<<<<<< HEAD
-﻿* {
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    width: 100%;
-    height: 100px;
-    background-color: #234465;
-}
-
-
-
-nav {
-    height: 90px;
-}
-
-    nav div {
-        line-height: 40px;
-        text-align: center;
-        margin-top: 30px;
-        float: right;
-        margin-right: 50px;
-        height: 40px;
-        width: 100px;
-        border: none;
-        color: white;
-        background-color: green;
-        border-radius: 5px;
-        -webkit-border-top-left-radius: 5px 5px;
-        -webkit-border-top-right-radius: 5px 5px;
-        -webkit-border-bottom-left-radius: 5px 5px;
-        -webkit-border-bottom-right-radius: 5px 5px;
-        transition: 0.2s;
-    }
-
-        nav div:hover {
-            line-height: 40px;
-            text-align: center;
-            margin-top: 30px;
-            margin-left: 2px;
-            float: right;
-            margin-right: 50px;
-            height: 38px;
-            width: 98px;
-            border: none;
-            color: yellow;
-            font-size: 20px;
-            background-color: darkgreen;
-            border-radius: 5px;
-            -webkit-border-top-left-radius: 5px 5px;
-            -webkit-border-top-right-radius: 5px 5px;
-            -webkit-border-bottom-left-radius: 5px 5px;
-            -webkit-border-bottom-right-radius: 5px 5px;
-            transition: 0.2s;
-        }
-
-#logo {
-    width: 300px;
-    height: 70px;
-    margin-left: 20px;
-    border: 1px solid white;
-    color: white;
-    font-size: 30px;
-    line-height: 70px;
-    text-align: center;
-    float: left;
-    margin-top: 15px;
-}
-
-main {
-    width: 100%;
-    background-color: lightgray;
-    height: 1300px;
-}
-
-form {
-    width: 850px;
-    height: 1300px;
-    margin: auto;
-    background: lightgray;
-}
-
-main div {
-    display: inline-block;
-    width: 420px;
-    height: 350px;
-    margin-top: 30px;
-}
-
-p {
-    text-align: center;
-    font-size: 30px;
-    color: brown;
-}
-iframe{
-    border:none;
-}
-@media screen and (max-width: 930px) {
-
-    nav div {
-        width: 60px;
-        font-size: 12px;
-    }
-
-        nav div:hover {
-            line-height: 20px;
-            text-align: center;
-            margin-left: 1px;
-            float: right;
-            width: 60px;
-            height: 20px;
-            border: none;
-            color: yellow;
-            font-size: 13px;
-            background-color: darkgreen;
-            border-radius: 5px;
-            -webkit-border-top-left-radius: 5px 5px;
-            -webkit-border-top-right-radius: 5px 5px;
-            -webkit-border-bottom-left-radius: 5px 5px;
-            -webkit-border-bottom-right-radius: 5px 5px;
-            transition: 0.2s;
-        } 
-}
-=======
 ﻿* {
     margin: 0;
     padding: 0;
@@ -202,17 +76,17 @@ main {
 
 form {
     width: 520px;
-    height: 320px;
+    height: 420px;
     margin: auto;
     background: #5a5a5a;
 }
 
-main div {
+/*main div {
     display: inline-block;
     width: 420px;
     height: 350px;
     margin-top: 30px;
-}
+}*/
 
 p {
     text-align: center;
@@ -255,7 +129,8 @@ iframe {
     z-index: 1;
     width: 420px;
     height: 400px;
-    display: none;
+    display: block;
+    margin: auto;
 }
 
 #frame2 {
@@ -263,6 +138,7 @@ iframe {
     width: 420px;
     height: 400px;
     display: none;
+    margin: auto;
 }
 
 #frame3 {
@@ -270,6 +146,7 @@ iframe {
     width: 420px;
     height: 400px;
     display: none;
+    margin: auto;
 }
 
 #frame4 {
@@ -277,6 +154,7 @@ iframe {
     width: 420px;
     height: 400px;
     display: none;
+    margin: auto;
 }
 
 #frame5 {
@@ -284,6 +162,7 @@ iframe {
     width: 420px;
     height: 400px;
     display: none;
+    margin: auto;
 }
 
 #frame6 {
@@ -291,12 +170,13 @@ iframe {
     width: 420px;
     height: 400px;
     display: none;
+    margin: auto;
 }
 
 .overlay {
     top: 105px;
-    left: 414px;
-    width: 420px;
+    /*left: 414px;*/
+    width: 100%;
     height: 400px;
     position: absolute;
 }
@@ -305,37 +185,42 @@ iframe {
     text-align: center;
     line-height: 40px;
     display: inline-block;
-    float: left;
-    width: 100px;
+    width: 140px;
     height: 40px;
     background-color: red;
     color: white;
+    border: none;
 }
 
 #right_slaid {
     text-align: center;
     line-height: 40px;
     display: inline-block;
-    float: right;
-    width: 100px;
+    width: 140px;
     height: 40px;
     background-color: red;
     color: white;
+    border: none;
 }
 
-#auto_slide {
+#random_slide {
     text-align: center;
     line-height: 40px;
-    margin-left: 52px;
     display: inline-block;
-    width: 100px;
+    width: 140px;
     height: 40px;
     background-color: red;
     color: white;
+    border: none;
 }
 
 #slide_buttons {
-    width: 400px;
+    margin: auto;
+    width: 428px;
     height: 50px;
 }
->>>>>>> origin/master
+
+#video_frame{
+    width:800px;
+    height:400px
+}
