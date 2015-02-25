@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -7,22 +7,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Carousel Template for Bootstrap</title>
-
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    <title>Fun University</title>
+    <link href="styles/bootstrap.min.css" rel="stylesheet" />
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-    <link href="css/carousel.css" rel="stylesheet">
-	
-	<style>
-	h1 {padding:0; margin: 0}
-	</style>
+    <link href="styles/styles.css" rel="stylesheet" />
   </head>
-  
   <body>
 	<header>
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -70,25 +62,27 @@
 	</header>	
 	
     <nav class="navbar navbar-inverse">
-        <div class="navbar-header"><img src="images/logo.png" alt="logo">
-			
-			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			  </button>
-			  <div class="pic2"><img src="images/simpson.png" alt="logo"></div>
-		</div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="https://softuni.bg/news">Новини</a></li>
-            <li class="active"><a href="#">Отдих и отмора</a></li>
-            <li class="active"><a href="#">Лайф</a></li>
-            <li class="active"><a href="#">Вицове</a></li>
-            <li class="active"><a href="#">Хороскоп</a></li>
-          </ul>
+        <div class="navbar-header">
+            <a href="#"><img src="images/logo.png" alt="logo"></a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
         </div>
-      
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav col-lg-7">
+                <li class="active"><a href="https://softuni.bg/news">Новини</a></li>
+                <li class="active"><a href="#">Отдих и отмора</a></li>
+                <li class="active"><a href="#">Лайф</a></li>
+                <li class="active"><a href="#">Вицове</a></li>
+                <li class="active"><a href="#">Хороскоп</a></li>
+            </ul>
+            <form action="#" class=" col-xs-10 col-lg-3">
+                <input type="search" name="search" placeholder="Търсене в сайта..." />
+                <button class="search-btn"></button>
+            </form>
+        </div>
     </nav>
 	
     <section id="circle">
@@ -147,8 +141,8 @@
 
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/docs.min.js"></script>
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/docs.min.js"></script>
+    <script src="scripts/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>

@@ -1,26 +1,51 @@
+html, body, header, footer, section, article, div, img, ol, ul, li, a, span, button, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
 }
-
-nav .navbar {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 20;
-  padding: 0 15px;
-  margin-bottom: 30px;
+.navbar {
+    background-color: #000;
+    border-radius: 0;
 }
-
-nav > .container {
-  padding-right: 0;
-  padding-left: 0;
-}
-.navbar-wrapper .navbar .container {
-  width: auto;
-}
-
+    .navbar ul {
+        margin-left: 50px;
+    }
+    .navbar-inverse .navbar-nav > .active > a{
+        line-height:42px;
+        background-color: #000;
+        font-size: 1.5em;
+    }
+    .navbar-inverse .navbar-nav > .active > a:hover {
+        background-color: #870000;
+        transition: background 512ms ease-in;
+    }
+    #navbar form {
+        float:right;
+    }
+    #navbar form input {
+        height: 72px;
+        border: none;
+        background-color: #FFF;
+        width: 80%;
+        padding: 10px;
+        float:left
+    }
+    #navbar form input:active {
+        background-color: #FFF;
+    }
+    #navbar form .search-btn {
+        background: url('../images/search.png') no-repeat center;
+        border: none;
+        width: 20%;
+        height: 72px;
+        float: right;
+    }
+    #navbar form .search-btn:hover {
+        background-color: #870000;
+    }
 .carousel {
   height: 500px;
 }
@@ -79,10 +104,6 @@ footer {
 	background: #101010;
 }
 
-.navbar-header{
-height:71px;
-margin-right:111px;
-}
 .pic2{
 margin-top:490px;
 }
