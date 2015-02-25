@@ -15,7 +15,7 @@ a {
 header {
     width: 100%;
     height: 100px;
-    background-color: #234465;
+    background-color: black;
 }
 
 #strip_menu {
@@ -28,43 +28,33 @@ nav {
 }
 
     nav div {
-        line-height: 40px;
+        line-height: 100px;
         text-align: center;
-        margin-top: 30px;
+        /*margin-top: 30px;*/
         float: right;
-        margin-right: 50px;
-        height: 40px;
+        margin-right: 5px;
+        height: 100px;
         width: 100px;
         border: none;
         color: white;
-        background-color: green;
-        border-radius: 5px;
-        -webkit-border-top-left-radius: 5px 5px;
-        -webkit-border-top-right-radius: 5px 5px;
-        -webkit-border-bottom-left-radius: 5px 5px;
-        -webkit-border-bottom-right-radius: 5px 5px;
-        transition: 0.2s;
+        background-color: black;
+        transition: 0.512s;
     }
 
         nav div:hover {
-            line-height: 40px;
+            line-height: 100px;
             text-align: center;
-            margin-top: 30px;
+            /*margin-top: 30px;*/
             margin-left: 2px;
             float: right;
-            margin-right: 50px;
-            height: 38px;
+            margin-right: 5px;
+            height: 100px;
             width: 98px;
             border: none;
             color: yellow;
             font-size: 20px;
-            background-color: darkgreen;
-            border-radius: 5px;
-            -webkit-border-top-left-radius: 5px 5px;
-            -webkit-border-top-right-radius: 5px 5px;
-            -webkit-border-bottom-left-radius: 5px 5px;
-            -webkit-border-bottom-right-radius: 5px 5px;
-            transition: 0.2s;
+            background-color: #870000;
+            transition: 0.512s;
         }
 
 #logo {
@@ -149,6 +139,7 @@ iframe {
     }
 }
 
+
 #frame1 {
     z-index: 1;
     width: 420px;
@@ -174,8 +165,8 @@ iframe {
     background-color: green;
     color: white;
     border: none;
-    margin-right:5px;
-    margin-left:5px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 #right_slaid {
@@ -198,7 +189,7 @@ iframe {
     background-color: green;
     color: white;
     border: none;
-    margin-right:5px;
+    margin-right: 5px;
 }
 
 #slide_buttons {
@@ -215,7 +206,7 @@ iframe {
 footer {
     width: 100%;
     height: 200px;
-    background-color: #234465;
+    background-color: black;
     color: white;
 }
 
@@ -233,17 +224,105 @@ footer {
         margin-left: 50px;
     }
 
-    #left_side{
-        float:left;
-        display:inline-block;
-        width:300px;
-        height:700px;
-        border:1px solid white;
+#left_side {
+    border-radius:5px;
+    background-color:black;
+    float: left;
+    display: inline-block;
+    width: 300px;
+    height: 700px;
+    border: 1px solid white;
+}
+
+#right_side {
+    border-radius:5px;
+    background-color:black;
+    float: right;
+    display: inline-block;
+    width: 300px;
+    height: 700px;
+    border: 1px solid white;
+}
+
+#left_side p {
+    border: 1px solid yellow;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+    font-size: 15px;
+    line-height: 15px;
+    background-color: black;
+    color: yellow;
+}
+
+#img_1{
+    width:100%;
+    height:200px;
+    background-image:url('cool images/computer_message_screwed.jpg');
+    background-size:contain;
+    background-repeat:no-repeat;
+    margin-bottom:10px;
+}
+#img_2{
+    width:100%;
+    height:200px;
+    background-image:url('cool images/computer_message_update.jpg');
+    background-size:contain;
+    background-repeat:no-repeat;
+    margin-bottom:10px;
+}
+
+#img_3{
+    width:100%;
+    height:200px;
+    background-image:url('cool images/404_road.jpg');
+    background-size:contain;
+    background-repeat:no-repeat;
+    margin-bottom:10px;
+}
+
+
+
+@media screen and (max-width: 950px) {
+
+    #right_side {
+        width: 200px;
     }
-    #right_side{
-         float:right;
-        display:inline-block;
-        width:300px;
-        height:700px;
-        border:1px solid white;
+
+    #left_side {
+        width: 200px;
     }
+
+    #frame1 {
+        width: 300px;
+    }
+
+    form {
+        width: 300px;
+    }
+
+    #frame {
+        width: 300px;
+    }
+
+    #left_slide {
+        font-size: 12px;
+        width: 100px;
+    }
+
+    #right_slaid {
+        font-size: 12px;
+        width: 100px;
+    }
+
+    #random_slide {
+        font-size: 12px;
+        width: 100px;
+    }
+
+    #slide_buttons {
+        margin: auto;
+        width: 330px;
+        height: 50px;
+    }
+}
