@@ -9,7 +9,6 @@ iframe {
     height: 440px;
     display: block;
     margin: auto;
-    margin-left: 660px;
 }
 
 .frame_video{
@@ -17,11 +16,12 @@ iframe {
 }
 
 .overlay {
-    top: 78px;
+    top: 39px;
     /*left: 414px;*/
     width: 600px;
     height: 440px;
     position: absolute;
+    border: 1px solid black;
     display: inline-block;
 }
 #left_slide {
@@ -81,5 +81,4 @@ iframe {
     margin: auto;
     width: 600px;
     height: 50px;
-    margin-left: 660px;
 }
