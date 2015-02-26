@@ -152,3 +152,10 @@ margin-left:45px;
   border-radius: 30px;
   background: url(images/background.jpg);
 }
+
+#jokes{
+    width:80%;
+}
+#jokes figure{
+    display:inline-block;
+}
