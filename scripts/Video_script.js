@@ -11,13 +11,14 @@ $(document).ready(function () {
         "https://www.youtube.com/embed/wTI4_yXEJuo",
         "https://www.youtube.com/embed/CJOU_riuZ-4",
         "https://www.youtube.com/embed/MZrdrfdAl44",
-        "https://www.youtube.com/embed/Z_S2uRjLZ14"];
+        "https://www.youtube.com/embed/Z_S2uRjLZ14",
+		"https://www.youtube.com/embed/twyhILzp7i8"];
 
 
 
     function random_generator() {
 
-        random = Math.round(Math.random() * Math.floor(6));
+        random = Math.round(Math.random() * Math.floor(videos.length));
         return random;
 
     }
@@ -44,7 +45,7 @@ $(document).ready(function () {
 
         $('#frame').attr('src', videos[count]);
 
-        if (count == 7) {
+        if (count == videos.length+1) {
             count = 1;
         }
        
@@ -74,7 +75,7 @@ $(document).ready(function () {
     $('#left_slide').on('click', function () {
         $('.overlay').css('display', 'block');
         $('#frame').attr('src', videos[count]);
-        if (count == 5) {
+        if (count == videos.length-1) {
             count = 0;
         } else {
             count++;
@@ -91,12 +92,12 @@ $(document).ready(function () {
         $('.overlay').css('display', 'block'); // activate the overlay
         $('#frame').attr('src', videos[count]);
         if (count == -1) {
-            count = 5;
+            count = videos.length-1;
         } else {
             count--;
         }
         if (count == -1) {
-            count = 5;
+            count = videos.length-1;
         }
         clearInterval(refreshIntervalId);
     });
