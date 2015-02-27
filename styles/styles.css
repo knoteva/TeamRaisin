@@ -97,6 +97,13 @@ html, body, header, footer, section, article, div, img, ol, ul, li, a, span, but
     border-radius: 30px;
     background: url(images/background.jpg);
 }
+#beach h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+#beach .rest-song {
+    height: 800px;
+}
 pre {
     text-align:center;
 }
