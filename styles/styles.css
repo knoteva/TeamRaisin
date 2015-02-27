@@ -97,6 +97,9 @@ html, body, header, footer, section, article, div, img, ol, ul, li, a, span, but
     border-radius: 30px;
     background: url(images/background.jpg);
 }
+pre {
+    text-align:center;
+}
 /*Rest page end*/
 
 /*footer start*/
