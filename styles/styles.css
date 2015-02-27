@@ -91,22 +91,35 @@ html, body, header, footer, section, article, div, img, ol, ul, li, a, span, but
 /*Astro end*/
 
 /*Rest page start*/
+.rest-page {
+    padding: 20px;
+}
 #beach {
     border: 3px solid #FF0000;
     box-shadow: 0 0 0 2px #FFFF00, 0 0 0 4px #008000, 0 0 0 6px #0000FF;
     border-radius: 30px;
     background: url(images/background.jpg);
 }
-#beach h1 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-#beach .rest-song {
-    height: 800px;
-}
-pre {
-    text-align:center;
-}
+    #beach .video {
+        margin-bottom: 30px;
+    }
+    #beach h1 {
+        text-align: center;
+        margin: 20px 0;
+    }
+    #beach .rest-song {
+        height: 800px;
+    }
+
+    #beach pre {
+        text-align:center;
+    }
+    #beach .photos {
+        margin-bottom: 20px;
+    }
+    #beach .photos figure {
+        margin-bottom: 20px;
+    }
 /*Rest page end*/
 
 /*footer start*/
