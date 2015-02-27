@@ -11,7 +11,8 @@ $(document).ready(function () {
         "https://www.youtube.com/embed/wTI4_yXEJuo",
         "https://www.youtube.com/embed/CJOU_riuZ-4",
         "https://www.youtube.com/embed/MZrdrfdAl44",
-        "https://www.youtube.com/embed/Z_S2uRjLZ14"];
+        "https://www.youtube.com/embed/Z_S2uRjLZ14",
+		"https://www.youtube.com/embed/n5WSlt1yyMU"];
 
 
 
