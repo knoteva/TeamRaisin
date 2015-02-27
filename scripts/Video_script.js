@@ -28,7 +28,7 @@ $(document).ready(function () {
 
     // overlay allow to click on the frame without directly start the video(cheat). 
     $('.overlay').on('click', function () {
-        clearInterval(refreshIntervalId);
+        //clearInterval(refreshIntervalId);
         //$(show).css('width', '800px');
         //$(show + ' iframe').css('width', '800px');
         //$(show).css('height', '600px');
@@ -40,17 +40,17 @@ $(document).ready(function () {
 
 
     // Looping every 10sec and showing next video frame until click on some frame (overlay).
-    var refreshIntervalId = setInterval(function () {
+    //var refreshIntervalId = setInterval(function () {
         
 
-        $('#frame').attr('src', videos[count]);
+ //       $('#frame').attr('src', videos[count]);
 
-        if (count == videos.length+1) {
-            count = 1;
-        }
-       
-        count++;
-    }, 10000);
+//        if (count == videos.length+1) {
+  //          count = 1;
+   //     }
+      
+     //   count++;
+    //}, 10000);
 
 
 
@@ -67,7 +67,7 @@ $(document).ready(function () {
         $('#frame').attr('src', videos[get]);
 
 
-        clearInterval(refreshIntervalId);
+        //clearInterval(refreshIntervalId);
     });
 
 
@@ -80,7 +80,7 @@ $(document).ready(function () {
         } else {
             count++;
         }
-        clearInterval(refreshIntervalId);
+        //clearInterval(refreshIntervalId);
     });
 
 
@@ -99,7 +99,7 @@ $(document).ready(function () {
         if (count == -1) {
             count = videos.length-1;
         }
-        clearInterval(refreshIntervalId);
+       // clearInterval(refreshIntervalId);
     });
 
 });
