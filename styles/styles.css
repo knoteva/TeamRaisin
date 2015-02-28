@@ -40,17 +40,23 @@ body > header {
     .navbar ul {
         margin-left: 20px;
     }
-    .navbar-inverse .navbar-nav > .active > a{
+    .navbar .navbar-nav > .active > a{
         line-height:42px;
         background-color: #000;
-        font-size: 1.5em;
+        font-size: 1.4em;
+        padding-left: 10px;
+        padding-right: 10px;
     }
-    .navbar-inverse .navbar-nav > .active > a:hover {
+    .navbar .navbar-nav .clicked a {
+        background-color: #870000;
+    }
+    .navbar .navbar-nav > .active > a:hover {
         background-color: #870000;
         transition: background 512ms ease-in;
     }
     #navbar form {
         float:right;
+        padding-right: 0;
     }
     #navbar form input {
         margin-top: 10px;
@@ -165,6 +171,10 @@ footer {
     .nav > li > a {
         padding-left: 5px;
         padding-right: 5px;
+    }
+
+    #navbar form .search-btn, #navbar form input {
+        height: 52px;
     }
 }
   
