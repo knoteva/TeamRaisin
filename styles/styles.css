@@ -153,6 +153,35 @@ body > header {
     margin-right:200px;
 }
 /*facts end*/
+
+/*Contacts start*/
+.contacts {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 30px 20px;
+}
+label {
+    width:100px;
+    display:inline-block;
+}
+label:last-of-type {
+    vertical-align: top;
+    margin-top: 20px; 
+}
+input, textarea {
+    margin-top: 20px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+}
+input[type=submit] {
+    margin-left: 105px;
+    width: 150px;
+    font-weight:bold;
+}
+/*Contacts end*/
+
 /*footer start*/
 footer {
 	display: inline-block;
