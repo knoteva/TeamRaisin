@@ -121,7 +121,21 @@ html, body, header, footer, section, article, div, img, ol, ul, li, a, span, but
         margin-bottom: 20px;
     }
 /*Rest page end*/
-
+/*facts start*/
+#facts h1{
+		text-align: center;
+        margin: 20px 0;
+}
+#facts li{
+margin-left:50px;
+font-size:1.5em;
+font-weight:bold;
+}
+.factsimg{
+float:right;
+margin-right:200px;
+}
+/*facts end*/
 /*footer start*/
 footer {
 	display: inline-block;
