@@ -5,22 +5,27 @@ html, body, header, footer, section, article, div, img, ol, ul, li, a, span, but
 }
 
 /*Carrousel start*/
+body > header {
+    background: url('../images/bckg2.jpg');
+    padding-bottom: 20px;
+}
 .carousel {
-  height: 500px;
+    height: 350px;
+    width: 900px;
+    margin: 0 auto;
 }
     .carousel-caption {
-      z-index: 10;
+        z-index: 10;
     }
     .carousel .item {
-      height: 500px;
-      background-color: #777;
+        height: 350px;
     }
     .carousel-inner > .item > img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      min-width: 100%;
-      height: 500px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        height: 350px;
     }
 /*Carrousel end*/
 
@@ -29,8 +34,11 @@ html, body, header, footer, section, article, div, img, ol, ul, li, a, span, but
     background-color: #000;
     border-radius: 0;
 }
+    .navbar>div>a>img {
+        margin-left: 20px;
+    }
     .navbar ul {
-        margin-left: 50px;
+        margin-left: 20px;
     }
     .navbar-inverse .navbar-nav > .active > a{
         line-height:42px;
@@ -45,7 +53,8 @@ html, body, header, footer, section, article, div, img, ol, ul, li, a, span, but
         float:right;
     }
     #navbar form input {
-        height: 72px;
+        margin-top: 10px;
+        height: 52px;
         border: none;
         background-color: #FFF;
         width: 80%;
@@ -156,10 +165,6 @@ footer {
     .nav > li > a {
         padding-left: 5px;
         padding-right: 5px;
-    }
-
-    #navbar form .search-btn, #navbar form input {
-        height: 52px;
     }
 }
   
