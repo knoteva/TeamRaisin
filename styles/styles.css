@@ -268,6 +268,13 @@ iframe {
 }
 /*first fact end*/
 
+/*Second fact start*/
+.calmimg{
+    float:left;
+    margin-right:50px;
+}
+/*second fact end*/
+
 /*Test start*/
 .hypnotize{
 	margin: 0 auto;
@@ -337,7 +344,6 @@ footer {
 	background: #101010;
 }
 /*footer end*/
-
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
