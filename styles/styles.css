@@ -286,6 +286,9 @@ iframe {
     margin: 50px;
     padding: 30px 20px;
 }
+#map {
+	width: 100%;
+}
 label {
     width:100px;
     display:inline-block;
