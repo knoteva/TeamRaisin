@@ -233,7 +233,25 @@ iframe {
 /*Video end*/ 
 /*Rest page end*/
 
-/*Facts start*/
+/* Facts start*/
+#all-facts {
+    display: flex;    
+}
+.each-fact {
+    
+    margin-left: 15px;
+    width: 400px;
+    padding-top: 15px;
+}
+.right-image {
+  float: right;
+}
+.fununi {
+    vertical-align: bottom;
+}
+/* facts end*/
+
+/*First fact start*/
 #facts h1{
 	text-align: center;
     margin: 20px 0;
@@ -248,7 +266,7 @@ iframe {
     float:right;
     margin-right:200px;
 }
-/*facts end*/
+/*first fact end*/
 
 /*Test start*/
 .hypnotize{
