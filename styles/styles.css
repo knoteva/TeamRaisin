@@ -233,24 +233,6 @@ iframe {
 /*Video end*/ 
 /*Rest page end*/
 
-/* Facts start*/
-#all-facts {
-    display: flex;    
-}
-.each-fact {
-    
-    margin-left: 15px;
-    width: 400px;
-    padding-top: 15px;
-}
-.right-image {
-  float: right;
-}
-.fununi {
-    vertical-align: bottom;
-}
-/* facts end*/
-
 /*First fact start*/
 #facts h1{
 	text-align: center;
