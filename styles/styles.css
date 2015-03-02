@@ -74,8 +74,10 @@ body > header {
         background: url('../images/search.png') no-repeat center;
         border: none;
         width: 20%;
-        height: 72px;
+        margin-top: 10px;
+        height: 52px;
         float: right;
+        border-radius: 10px;
     }
     #navbar form .search-btn:hover {
         background-color: #870000;
@@ -89,17 +91,17 @@ body > header {
 	background: rgba(200,200,200,.5);
 }
 .newsarticle{
-margin:15px;
-font-size:1.2em;
+    margin:15px;
+    font-size:1.2em;
 }
 .button{
-margin:10px;
-height:50px;
-width:150px;
+    margin:10px;
+    height:50px;
+    width:150px;
 }
 .buttontext{
-font-weight:bold;
-font-size:1.5em;
+    font-weight:bold;
+    font-size:1.5em;
 }
 /*Main page end*/
 
@@ -233,6 +235,20 @@ iframe {
 /*Video end*/ 
 /*Rest page end*/
 
+/*Facts start*/
+#all-facts {
+    padding: 50px;
+}
+    #all-facts .each-fact {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    #all-facts .each-fact img {
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+/*Facts end*/
+
 /*First fact start*/
 #facts h1{
 	text-align: center;
@@ -242,7 +258,6 @@ iframe {
     margin-left:50px;
     font-size:1.5em;
     font-weight:bold;
-    list-style-type: square;
 }
 .factsimg{
     float:right;
