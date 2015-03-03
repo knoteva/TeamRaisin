@@ -65,7 +65,7 @@ body > header {
         background-color: #FFF;
         width: 80%;
         padding: 10px;
-        float:left
+        float:left;
     }
     #navbar form input:active {
         background-color: #FFF;
@@ -311,8 +311,13 @@ iframe {
     border-radius: 10px;
     margin: 50px;
     padding: 30px 20px;
+    height: 700px;
+}
+.about {
+    height: 750px;
 }
 #map {
+    margin-top: 50px;
 	width: 100%;
 }
 label {
@@ -376,14 +381,47 @@ footer {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (max-width: 960px) {
-    .nav > li > a {
-        padding-left: 5px;
-        padding-right: 5px;
+@media (max-width: 1600px) {
+    #navbar form {
+        float:right;
     }
-
     #navbar form .search-btn, #navbar form input {
-        height: 52px;
+        margin-bottom: 10px;
     }
+}
+@media (max-width: 1024px) {
+    header .navbar {
+        padding-left: 65px;
+    }
+    #navbar form {
+        float:left;
+    }
+    #navbar form .search-btn, #navbar form input {
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 960px) {
+    #navbar form .search-btn, #navbar form input {
+        margin-bottom: 10px;
+    }
+    body > header {
+        padding-bottom: 0;
+    }
+    .navbar {
+        margin-bottom: 0;
+    }
+    .carousel {
+        max-width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    header .navbar {
+        padding-left: 0;
+    }
+    .carousel, .carousel .item, .carousel-inner > .item > img {
+        height: 250px;
+    }
+}
+@media (max-width: 640px) {
 }
   
