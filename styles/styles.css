@@ -302,6 +302,10 @@ iframe {
 /*Test end*/
 
 /*Contacts start*/
+#contacts h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
 .contacts {
     border: 1px solid black;
     border-radius: 10px;
@@ -330,6 +334,33 @@ input[type=submit] {
     width: 150px;
     font-weight:bold;
 }
+    #contacts article {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    #contacts article img {
+        padding-bottom: 20px;
+        border-radius: 10px;
+    }
+    .softuni, .github {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+    }
+    #contacts article .softuni {
+        background: url('../images/softuni_logo.png') no-repeat;
+        margin-right: 10px;
+    }
+    #contacts article .github {
+        background: url('../images/github_logo.png') no-repeat;
+        margin-left: 10px;
+    }
+    .softuni:hover, .github:hover {
+        background-color: #fff;
+        opacity: 0.3;
+    }
+
 /*Contacts end*/
 
 /*footer start*/
