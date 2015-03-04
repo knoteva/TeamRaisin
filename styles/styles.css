@@ -5,7 +5,6 @@ html, body, header, footer, section, article, div, img, ol, ul, li, a, span, but
 }
 img {
     max-width: 100%;
-    height: auto;
 }
 
 /*Carrousel start*/
@@ -311,15 +310,15 @@ iframe {
     margin-bottom: 20px;
     text-align: center;
 }
-.contacts {
+#contacts .contacts {
     border: 1px solid black;
     border-radius: 10px;
     margin: 50px;
     padding: 30px 20px;
     height: 700px;
 }
-.about {
-    height: 750px;
+#contacts .about {
+    height: auto;
 }
 #map {
     margin-top: 50px;
@@ -426,7 +425,5 @@ footer {
     .carousel, .carousel .item, .carousel-inner > .item > img {
         height: 250px;
     }
-}
-@media (max-width: 640px) {
 }
   
