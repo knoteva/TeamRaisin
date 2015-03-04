@@ -99,7 +99,7 @@ body > header {
 }
 .button{
     display:inline-block;
-    margin:10px;
+    margin:40px;
     background-color: #F2F2F2;
     padding: 10px 35px;
     font-weight:bold;
@@ -426,4 +426,3 @@ footer {
         height: 250px;
     }
 }
-  
