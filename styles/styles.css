@@ -327,6 +327,7 @@ iframe {
 label {
     width:100px;
     display:inline-block;
+	margin-top: 10px;
 }
 label:last-of-type {
     vertical-align: top;
@@ -335,6 +336,7 @@ label:last-of-type {
 input, textarea {
     margin-top: 20px;
     width: 300px;
+	max-width: 100%;
     padding: 10px;
     border-radius: 5px;
 }
@@ -425,4 +427,17 @@ footer {
     .carousel, .carousel .item, .carousel-inner > .item > img {
         height: 250px;
     }
+}
+@media (max-width: 640px) {
+	#contacts .contacts  {
+		height: auto;
+	}
+}
+@media (max-width: 480px) {
+	#contacts .contacts  {
+		height: auto;
+	}
+	input[type=submit] {
+		margin-left: 0;
+	}
 }
